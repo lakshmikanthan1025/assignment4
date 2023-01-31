@@ -1,0 +1,7 @@
+class Mother extends Grandma{
+String name = "stella";
+
+public void work(){
+System.out.println(name+super.name);
+}
+}
