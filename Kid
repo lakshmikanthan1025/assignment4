@@ -1,0 +1,14 @@
+class Kid extends Mother{
+String name = "Suman";
+public static void main(String args[]){
+Kid kid_obj = new Kid();
+kid_obj.work();
+kid_obj.study();
+}
+public void work(){
+System.out.println("home work");
+}
+public void study(){
+System.out.println("am reading a tamil book");
+}
+}
